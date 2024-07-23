@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4904772C4E556D00F1DF10 /* gradleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4904762C4E556D00F1DF10 /* gradleApp.swift */; };
+		ED4904792C4E556D00F1DF10 /* gradleDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4904782C4E556D00F1DF10 /* gradleDocument.swift */; };
+		ED49047B2C4E556D00F1DF10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49047A2C4E556D00F1DF10 /* ContentView.swift */; };
+		ED49047D2C4E556F00F1DF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49047C2C4E556F00F1DF10 /* Assets.xcassets */; };
+		ED4904822C4E556F00F1DF10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4904812C4E556F00F1DF10 /* Preview Assets.xcassets */; };
+		ED49048C2C4E556F00F1DF10 /* gradleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49048B2C4E556F00F1DF10 /* gradleTests.swift */; };
+		ED4904962C4E556F00F1DF10 /* gradleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4904952C4E556F00F1DF10 /* gradleUITests.swift */; };
+		ED4904982C4E556F00F1DF10 /* gradleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4904972C4E556F00F1DF10 /* gradleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4904882C4E556F00F1DF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED49046B2C4E556D00F1DF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4904722C4E556D00F1DF10;
+			remoteInfo = gradle;
+		};
+		ED4904922C4E556F00F1DF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED49046B2C4E556D00F1DF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4904722C4E556D00F1DF10;
+			remoteInfo = gradle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4904732C4E556D00F1DF10 /* gradle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4904762C4E556D00F1DF10 /* gradleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradleApp.swift; sourceTree = "<group>"; };
+		ED4904782C4E556D00F1DF10 /* gradleDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradleDocument.swift; sourceTree = "<group>"; };
+		ED49047A2C4E556D00F1DF10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED49047C2C4E556F00F1DF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED49047E2C4E556F00F1DF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED49047F2C4E556F00F1DF10 /* gradle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gradle.entitlements; sourceTree = "<group>"; };
+		ED4904812C4E556F00F1DF10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED4904872C4E556F00F1DF10 /* gradleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49048B2C4E556F00F1DF10 /* gradleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradleTests.swift; sourceTree = "<group>"; };
+		ED4904912C4E556F00F1DF10 /* gradleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4904952C4E556F00F1DF10 /* gradleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradleUITests.swift; sourceTree = "<group>"; };
+		ED4904972C4E556F00F1DF10 /* gradleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4904702C4E556D00F1DF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4904842C4E556F00F1DF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49048E2C4E556F00F1DF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED49046A2C4E556D00F1DF10 = {
+			isa = PBXGroup;
+			children = (
+				ED4904752C4E556D00F1DF10 /* gradle */,
+				ED49048A2C4E556F00F1DF10 /* gradleTests */,
+				ED4904942C4E556F00F1DF10 /* gradleUITests */,
+				ED4904742C4E556D00F1DF10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4904742C4E556D00F1DF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4904732C4E556D00F1DF10 /* gradle.app */,
+				ED4904872C4E556F00F1DF10 /* gradleTests.xctest */,
+				ED4904912C4E556F00F1DF10 /* gradleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4904752C4E556D00F1DF10 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				ED4904762C4E556D00F1DF10 /* gradleApp.swift */,
+				ED4904782C4E556D00F1DF10 /* gradleDocument.swift */,
+				ED49047A2C4E556D00F1DF10 /* ContentView.swift */,
+				ED49047C2C4E556F00F1DF10 /* Assets.xcassets */,
+				ED49047E2C4E556F00F1DF10 /* Info.plist */,
+				ED49047F2C4E556F00F1DF10 /* gradle.entitlements */,
+				ED4904802C4E556F00F1DF10 /* Preview Content */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		ED4904802C4E556F00F1DF10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED4904812C4E556F00F1DF10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED49048A2C4E556F00F1DF10 /* gradleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED49048B2C4E556F00F1DF10 /* gradleTests.swift */,
+			);
+			path = gradleTests;
+			sourceTree = "<group>";
+		};
+		ED4904942C4E556F00F1DF10 /* gradleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4904952C4E556F00F1DF10 /* gradleUITests.swift */,
+				ED4904972C4E556F00F1DF10 /* gradleUITestsLaunchTests.swift */,
+			);
+			path = gradleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4904722C4E556D00F1DF10 /* gradle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49049B2C4E556F00F1DF10 /* Build configuration list for PBXNativeTarget "gradle" */;
+			buildPhases = (
+				ED49046F2C4E556D00F1DF10 /* Sources */,
+				ED4904702C4E556D00F1DF10 /* Frameworks */,
+				ED4904712C4E556D00F1DF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gradle;
+			productName = gradle;
+			productReference = ED4904732C4E556D00F1DF10 /* gradle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4904862C4E556F00F1DF10 /* gradleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49049E2C4E556F00F1DF10 /* Build configuration list for PBXNativeTarget "gradleTests" */;
+			buildPhases = (
+				ED4904832C4E556F00F1DF10 /* Sources */,
+				ED4904842C4E556F00F1DF10 /* Frameworks */,
+				ED4904852C4E556F00F1DF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4904892C4E556F00F1DF10 /* PBXTargetDependency */,
+			);
+			name = gradleTests;
+			productName = gradleTests;
+			productReference = ED4904872C4E556F00F1DF10 /* gradleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED4904902C4E556F00F1DF10 /* gradleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4904A12C4E556F00F1DF10 /* Build configuration list for PBXNativeTarget "gradleUITests" */;
+			buildPhases = (
+				ED49048D2C4E556F00F1DF10 /* Sources */,
+				ED49048E2C4E556F00F1DF10 /* Frameworks */,
+				ED49048F2C4E556F00F1DF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4904932C4E556F00F1DF10 /* PBXTargetDependency */,
+			);
+			name = gradleUITests;
+			productName = gradleUITests;
+			productReference = ED4904912C4E556F00F1DF10 /* gradleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED49046B2C4E556D00F1DF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ED4904722C4E556D00F1DF10 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					ED4904862C4E556F00F1DF10 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ED4904722C4E556D00F1DF10;
+					};
+					ED4904902C4E556F00F1DF10 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ED4904722C4E556D00F1DF10;
+					};
+				};
+			};
+			buildConfigurationList = ED49046E2C4E556D00F1DF10 /* Build configuration list for PBXProject "gradle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED49046A2C4E556D00F1DF10;
+			productRefGroup = ED4904742C4E556D00F1DF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4904722C4E556D00F1DF10 /* gradle */,
+				ED4904862C4E556F00F1DF10 /* gradleTests */,
+				ED4904902C4E556F00F1DF10 /* gradleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4904712C4E556D00F1DF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4904822C4E556F00F1DF10 /* Preview Assets.xcassets in Resources */,
+				ED49047D2C4E556F00F1DF10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4904852C4E556F00F1DF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49048F2C4E556F00F1DF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED49046F2C4E556D00F1DF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4904772C4E556D00F1DF10 /* gradleApp.swift in Sources */,
+				ED4904792C4E556D00F1DF10 /* gradleDocument.swift in Sources */,
+				ED49047B2C4E556D00F1DF10 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4904832C4E556F00F1DF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49048C2C4E556F00F1DF10 /* gradleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49048D2C4E556F00F1DF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4904962C4E556F00F1DF10 /* gradleUITests.swift in Sources */,
+				ED4904982C4E556F00F1DF10 /* gradleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4904892C4E556F00F1DF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4904722C4E556D00F1DF10 /* gradle */;
+			targetProxy = ED4904882C4E556F00F1DF10 /* PBXContainerItemProxy */;
+		};
+		ED4904932C4E556F00F1DF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4904722C4E556D00F1DF10 /* gradle */;
+			targetProxy = ED4904922C4E556F00F1DF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED4904992C4E556F00F1DF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED49049A2C4E556F00F1DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED49049C2C4E556F00F1DF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gradle/gradle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gradle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gradle/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaml.gradle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED49049D2C4E556F00F1DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gradle/gradle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gradle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gradle/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaml.gradle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED49049F2C4E556F00F1DF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaml.gradleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gradle";
+			};
+			name = Debug;
+		};
+		ED4904A02C4E556F00F1DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaml.gradleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gradle";
+			};
+			name = Release;
+		};
+		ED4904A22C4E556F00F1DF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaml.gradleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gradle;
+			};
+			name = Debug;
+		};
+		ED4904A32C4E556F00F1DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaml.gradleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gradle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED49046E2C4E556D00F1DF10 /* Build configuration list for PBXProject "gradle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4904992C4E556F00F1DF10 /* Debug */,
+				ED49049A2C4E556F00F1DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49049B2C4E556F00F1DF10 /* Build configuration list for PBXNativeTarget "gradle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49049C2C4E556F00F1DF10 /* Debug */,
+				ED49049D2C4E556F00F1DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49049E2C4E556F00F1DF10 /* Build configuration list for PBXNativeTarget "gradleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49049F2C4E556F00F1DF10 /* Debug */,
+				ED4904A02C4E556F00F1DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4904A12C4E556F00F1DF10 /* Build configuration list for PBXNativeTarget "gradleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4904A22C4E556F00F1DF10 /* Debug */,
+				ED4904A32C4E556F00F1DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED49046B2C4E556D00F1DF10 /* Project object */;
+}
