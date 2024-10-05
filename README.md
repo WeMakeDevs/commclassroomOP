@@ -5,4 +5,4 @@
 - I love MLH
 - More power to kunal. love the work which your are doing for the community.
 - Anirudh Sharma finds the Community Classroom initiative really great!
-- Trupti Patil likes this Tutorial
+- Trupti Patil likes Kunal Kushwaha DSA course
