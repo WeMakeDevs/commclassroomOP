@@ -1,5 +1,6 @@
 # WeMakeDevs is OP
 
+- This Course has helped me a Alot!
 - Kunal Kushwaha says that this community is amazing.
 - Kunal made this change
 - I love MLH
