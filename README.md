@@ -4,4 +4,6 @@
 - Kunal made this change
 - I love MLH
 - More power to kunal. love the work which your are doing for the community.
+- Kunal Bro is OP.
 - Anirudh Sharma finds the Community Classroom initiative really great!
+- House of Coders approve Community Classroom because it is too OP.
